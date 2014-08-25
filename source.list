@@ -1,0 +1,37 @@
+# ==== mirror at iDSBG ====
+
+deb http://192.168.23.196/mirror/ubuntu/ precise main restricted universe multiverse
+deb http://192.168.23.196/mirror/ubuntu/ precise-updates main restricted universe multiverse
+deb http://192.168.23.196/mirror/ubuntu/ precise-backports main restricted universe multiverse
+deb http://192.168.23.196/mirror/ubuntu/ precise-proposed main restricted universe multiverse
+deb http://192.168.23.196/mirror/ubuntu/ precise-security main restricted universe multiverse
+deb http://192.168.23.196/mirror/ubuntu-extras/ precise main
+deb http://192.168.23.196/mirror/ubuntu-canonical/ precise partner
+
+# =========================
+
+# ==== Percona xtradb cluster ====
+deb http://repo.percona.com/apt precise main
+deb-src http://repo.percona.com/apt precise main
+# ================================
+
+deb http://tw.archive.ubuntu.com/ubuntu/ precise main restricted universe multiverse
+#deb-src http://tw.archive.ubuntu.com/ubuntu/ precise main restricted universe multiverse
+
+deb http://tw.archive.ubuntu.com/ubuntu/ precise-updates main restricted universe multiverse
+#deb-src http://tw.archive.ubuntu.com/ubuntu/ precise-updates main restricted universe multiverse
+
+deb http://tw.archive.ubuntu.com/ubuntu/ precise-backports main restricted universe multiverse
+#deb-src http://tw.archive.ubuntu.com/ubuntu/ precise-backports main restricted universe multiverse
+
+deb http://tw.archive.ubuntu.com/ubuntu/ precise-proposed main restricted universe multiverse
+#deb-src http://tw.archive.ubuntu.com/ubuntu/ precise-proposed main restricted universe multiverse
+
+deb http://tw.archive.ubuntu.com/ubuntu/ precise-security main restricted universe multiverse
+#deb-src http://tw.archive.ubuntu.com/ubuntu/ precise-security main restricted universe multiverse
+
+## This software is not part of Ubuntu, but is offered by third-party
+## developers who want to ship their latest software.
+deb http://extras.ubuntu.com/ubuntu precise main
+#deb-src http://extras.ubuntu.com/ubuntu precise main
+
